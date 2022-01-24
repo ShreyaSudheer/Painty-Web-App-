@@ -1,0 +1,61 @@
+.body{
+    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1471666875520-c75081f42081?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDY5NDA3Ng&ixlib=rb-1.2.1&q=85');
+    background-size: cover;
+    font-family: 'Comic Neue', cursive;
+    color: white;
+}
+.login_div{
+	background: rgba(255, 255, 255, 0.8);
+    float: none;
+    padding-bottom: 50px;
+    border-radius: 15px;
+}
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+    
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+#login_button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    width: 200px;
+    height: 50px;
+    font-size: large;
+}
+#question_div{
+    background: white;
+border-radius: 10px;
+border-top: 10px solid #000000;
+padding: 10px;
+float: none;
+text-align: left;
+}
+#button_open{
+    color: #000000;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+}
+#myCanvas
+{
+    border-width:10px;
+    background-color: rgb(255, 255, 255); 
+    border-style:ridge;
+    border-color: #ffffff;
+}
